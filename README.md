@@ -25,7 +25,7 @@
       <h3 align="center"><a href="https://github.com/nikhilsaxena04/notification-service">📬 Distributed Notification Broker</a></h3>
       <p align="center"><i>High-throughput, event-driven async queueing system</i></p>
       <ul>
-        <li><b>Performance:</b> Benchmarked at <b>2,962 req/s</b> with P95 latency under 70ms</li>
+        <li><b>Performance:</b> Sustaining <b>1,200+ RPS</b> (3,000 peak) with P95 latency under 70ms</li>
         <li><b>Architecture:</b> 3-tier microservice decoupled by a Redis queue</li>
         <li><b>Resilience:</b> Zero silent job loss via atomic <code>BLMOVE</code> & DLQ archival to S3</li>
         <li><b>Observability:</b> Distributed tracing with OpenTelemetry & Jaeger</li>
