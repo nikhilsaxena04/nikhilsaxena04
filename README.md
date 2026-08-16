@@ -22,7 +22,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">📬 Distributed Notification Broker</h3>
+      <h3 align="center"><a href="https://github.com/nikhilsaxena04/notification-service">📬 Distributed Notification Broker</a></h3>
       <p align="center"><i>High-throughput, event-driven async queueing system</i></p>
       <ul>
         <li><b>Performance:</b> Benchmarked at <b>2,962 req/s</b> with P95 latency under 70ms</li>
@@ -30,26 +30,16 @@
         <li><b>Resilience:</b> Zero silent job loss via atomic <code>BLMOVE</code> & DLQ archival to S3</li>
         <li><b>Observability:</b> Distributed tracing with OpenTelemetry & Jaeger</li>
       </ul>
-      <p align="center">
-        <a href="https://github.com/nikhilsaxena04/notification-service">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=nikhilsaxena04&repo=notification-service&theme=radical&bg_color=0D1117&border_color=30363D" alt="Notification Service" />
-        </a>
-      </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">⚔️ Meta Clash: Multiplayer Card Game</h3>
+      <h3 align="center"><a href="https://github.com/nikhilsaxena04/meta_clash">⚔️ Meta Clash: Multiplayer Card Game</a></h3>
       <p align="center"><i>Real-time, persistent WebSocket game engine</i></p>
       <ul>
         <li><b>Real-Time:</b> Concurrent WebSocket connections with <code>sync.RWMutex</code></li>
         <li><b>Safety:</b> Strict Finite State Machine (FSM) to prevent illegal moves</li>
-        <li><b>AI Pipeline:</b> Gemini LLM for dynamic card generation with deterministic fallback</li>
+        <li><b>AI Pipeline:</b> Gemini LLM for card generation with deterministic fallback</li>
         <li><b>Full Stack:</b> Next.js + Go/PostgreSQL on Vercel & Railway</li>
       </ul>
-      <p align="center">
-        <a href="https://github.com/nikhilsaxena04/meta_clash">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=nikhilsaxena04&repo=meta_clash&theme=radical&bg_color=0D1117&border_color=30363D" alt="Meta Clash" />
-        </a>
-      </p>
     </td>
   </tr>
 </table>
@@ -57,7 +47,6 @@
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nikhilsaxena04&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=nikhilsaxena04&theme=radical&hide_border=true&background=0D1117&hide_current_streak=true" alt="GitHub Streak" />
 </div>
 
