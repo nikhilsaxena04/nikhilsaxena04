@@ -22,16 +22,15 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-  <h3 align="center"><a href="https://github.com/nikhilsaxena04/notification-service">📬 Distributed Notification Broker</a></h3>
-  <p align="center"><i>High-throughput, event-driven async queueing system</i></p>
-  <ul>
-    <li><b>Performance:</b> Benchmarked at <b>9,200+ req/s</b> — 552k requests in 60s, P95 latency under 30ms</li>
-    <li><b>Architecture:</b> 3-tier microservice decoupled by a Redis queue</li>
-    <li><b>Resilience:</b> Zero silent job loss via atomic <code>BLMOVE</code> & DLQ archival to S3</li>
-    <li><b>Observability:</b> Distributed tracing with OpenTelemetry & Jaeger</li>
-  </ul>
-</td>
-
+      <h3 align="center"><a href="https://github.com/nikhilsaxena04/notification-service">📬 Distributed Notification Broker</a></h3>
+      <p align="center"><i>High-throughput, event-driven async queueing system</i></p>
+      <ul>
+        <li><b>Performance:</b> Benchmarked at <b>9,200+ req/s</b> — 552k requests in 60s, P95 latency under 30ms</li>
+        <li><b>Architecture:</b> 3-tier microservice decoupled by a Redis queue</li>
+        <li><b>Resilience:</b> Zero silent job loss via atomic <code>BLMOVE</code> & DLQ archival to S3</li>
+        <li><b>Observability:</b> Distributed tracing with OpenTelemetry & Jaeger</li>
+      </ul>
+    </td>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/nikhilsaxena04/meta_clash">⚔️ Meta Clash: Multiplayer Card Game</a></h3>
       <p align="center"><i>Real-time, persistent WebSocket game engine</i></p>
