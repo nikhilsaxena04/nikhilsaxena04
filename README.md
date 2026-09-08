@@ -28,10 +28,10 @@
 <h3 align="center"><a href="https://github.com/nikhilsaxena04/OmniRoute-Multi-Provider-LLM-Gateway">🔀 OmniRoute: Multi-Provider LLM Gateway</a></h3>
 <p align="center"><i>Production-grade AI gateway — born from the Sep 3 Azure outage that killed ChatGPT, Claude & Grok at once</i></p>
 
-- **Failover:** Auto-detects provider outages via circuit breaker and reroutes to the next LLM before users notice
-- **Cost Control:** Routes to the cheapest viable provider in real-time; pricing config lives in YAML, not code — no redeploy needed
-- **ROI Proof:** Python eval engine benchmarks quality, cost & latency — proved Groq delivers **equal quality at 6.7× less cost** than Claude
-- **Observability:** **Prometheus/Grafana** for system health, **LangFuse** for per-request AI trace debugging
+- **Resilience:** Custom circuit breaker instantly reroutes traffic during provider outages, ensuring zero downtime for end-users
+- **Cost Engine:** Dynamically routes to the cheapest model; pricing updates are a 1-line YAML change, requiring zero redeploys
+- **ROI Proof:** "Can we use a cheaper model without losing quality?" — built a Python eval engine that answers this with real cost, latency & quality data
+- **Observability:** Dual-layer debugging — **Prometheus** for fleet-wide latency tracking, **LangFuse** to inspect exactly why a specific prompt failed
 
 <table>
   <tr>
