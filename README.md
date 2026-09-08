@@ -32,25 +32,30 @@
 - **Evaluation:** Python engine that mathematically proves ROI — Groq at **$0.00006/req** vs Claude at **$0.0004/req**, identical quality scores
 - **Observability:** **Prometheus/Grafana** for P95 latency, **LangFuse** for per-request AI tracing — two layers answering different failure modes
 
-<br/>
-
-<h3 align="center"><a href="https://github.com/nikhilsaxena04/notification-service">📬 Distributed Notification Broker</a></h3>
-<p align="center"><i>High-throughput, event-driven async queueing system</i></p>
-
-- **Performance:** Benchmarked at **9,200+ req/s** — 552k requests in 60s, P95 latency under 30ms
-- **Architecture:** 3-tier microservice decoupled by a Redis queue
-- **Resilience:** Zero silent job loss via atomic `BLMOVE` & DLQ archival to S3
-- **Observability:** Distributed tracing with OpenTelemetry & Jaeger
-
-<br/>
-
-<h3 align="center"><a href="https://github.com/nikhilsaxena04/meta_clash">⚔️ Meta Clash: Multiplayer Card Game</a></h3>
-<p align="center"><i>Real-time, persistent WebSocket game engine</i></p>
-
-- **Real-Time:** Concurrent WebSocket connections with `sync.RWMutex`
-- **Safety:** Strict Finite State Machine (FSM) to prevent illegal moves
-- **AI Pipeline:** Gemini LLM for card generation with deterministic fallback
-- **Full Stack:** Next.js + Go/PostgreSQL on Vercel & Railway
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center"><a href="https://github.com/nikhilsaxena04/notification-service">📬 Distributed Notification Broker</a></h3>
+      <p align="center"><i>High-throughput, event-driven async queueing system</i></p>
+      <ul>
+        <li><b>Performance:</b> Benchmarked at <b>9,200+ req/s</b> — 552k requests in 60s, P95 latency under 30ms</li>
+        <li><b>Architecture:</b> 3-tier microservice decoupled by a Redis queue</li>
+        <li><b>Resilience:</b> Zero silent job loss via atomic <code>BLMOVE</code> & DLQ archival to S3</li>
+        <li><b>Observability:</b> Distributed tracing with OpenTelemetry & Jaeger</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center"><a href="https://github.com/nikhilsaxena04/meta_clash">⚔️ Meta Clash: Multiplayer Card Game</a></h3>
+      <p align="center"><i>Real-time, persistent WebSocket game engine</i></p>
+      <ul>
+        <li><b>Real-Time:</b> Concurrent WebSocket connections with <code>sync.RWMutex</code></li>
+        <li><b>Safety:</b> Strict Finite State Machine (FSM) to prevent illegal moves</li>
+        <li><b>AI Pipeline:</b> Gemini LLM for card generation with deterministic fallback</li>
+        <li><b>Full Stack:</b> Next.js + Go/PostgreSQL on Vercel & Railway</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
