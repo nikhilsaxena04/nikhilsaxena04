@@ -25,17 +25,17 @@
 
 ### 🌍 Open Source Contributions
 
-<h3 align="center">Graphify (120K+ ⭐, 7M+ Downloads, YC S26)</h3>
+<h3 align="center"><a href="https://github.com/Graphify-Labs/graphify">Graphify</a> (120K+ ⭐, 7M+ Downloads, YC S26)</h3>
 <p align="center"><i>Python, tree-sitter, ASTs</i></p>
 
-- **PR #3461:** Fixed issue #3409 where PHP route handlers were missing from the graph, preventing queries from tracing endpoints into services. Named each handler by its route (e.g., `GET /api/v1/users/{id}`) by composing prefixes from nested `group()` calls.
+- **[PR #3461](https://github.com/Graphify-Labs/graphify/pull/3461):** Fixed [issue #3409](https://github.com/Graphify-Labs/graphify/issues/3409) where PHP route handlers were missing from the graph, preventing queries from tracing endpoints into services. Named each handler by its route (e.g., `GET /api/v1/users/{id}`) by composing prefixes from nested `group()` calls.
 - **Extractor Refinements:** Made closure IDs stable across unrelated edits (per-scope numbering instead of line-based names) and refined the extractor over 8 commits, resolving false-positive route detections like `$cache->get()`.
 
-<h3 align="center">Checkmate (11K+ ⭐)</h3>
+<h3 align="center"><a href="https://github.com/bluewave-labs/Checkmate">Checkmate</a> (11K+ ⭐)</h3>
 <p align="center"><i>React, gRPC, REST, MongoDB, Zod</i></p>
 
-- **PR #3975:** Built click-through 90-day incident history for public status pages. Implemented a lazy REST API with Zod validation and public-data sanitization, a React/MUI modal with i18n/timezone support, MongoDB compound indexing, and regression tests.
-- **PR #3974:** Fixed gRPC monitors stuck in an initializing state due to `health.proto` resolution failures, correcting runtime path handling and updating the CI/CD build pipeline to package the protobuf into `dist/`.
+- **[PR #3975](https://github.com/bluewave-labs/Checkmate/pull/3975):** Built click-through 90-day incident history for public status pages. Implemented a lazy REST API with Zod validation and public-data sanitization, a React/MUI modal with i18n/timezone support, MongoDB compound indexing, and regression tests.
+- **[PR #3974](https://github.com/bluewave-labs/Checkmate/pull/3974):** Fixed gRPC monitors stuck in an initializing state due to `health.proto` resolution failures, correcting runtime path handling and updating the CI/CD build pipeline to package the protobuf into `dist/`.
 
 ---
 
