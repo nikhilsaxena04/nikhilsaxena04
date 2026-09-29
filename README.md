@@ -25,7 +25,7 @@
 
 ### 🌍 Open Source Contributions
 
-<h3 align="center"><a href="https://github.com/Graphify-Labs/graphify">Graphify</a> (120K+ ⭐, 7M+ Downloads, YC S26)</h3>
+<h3 align="center"><a href="https://github.com/Graphify-Labs/graphify">Graphify</a> (120K+ ⭐, 7.4M+ Downloads PyPi, YC S26)</h3>
 <p align="center"><i>Python, tree-sitter, ASTs</i></p>
 
 - **[PR #3461](https://github.com/Graphify-Labs/graphify/pull/3461):** Fixed [issue #3409](https://github.com/Graphify-Labs/graphify/issues/3409) where PHP route handlers were missing from the graph, preventing queries from tracing endpoints into services. Named each handler by its route (e.g., `GET /api/v1/users/{id}`) by composing prefixes from nested `group()` calls.
