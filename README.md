@@ -28,8 +28,11 @@
 <h3 align="center"><a href="https://github.com/Graphify-Labs/graphify">Graphify</a> (120K+ ⭐, 7.4M+ Downloads PyPi, YC S26)</h3>
 <p align="center"><i>Python, tree-sitter, ASTs</i></p>
 
-- **[PR #3461](https://github.com/Graphify-Labs/graphify/pull/3461):** Fixed [issue #3409](https://github.com/Graphify-Labs/graphify/issues/3409) where PHP route handlers were missing from the graph, preventing queries from tracing endpoints into services. Named each handler by its route (e.g., `GET /api/v1/users/{id}`) by composing prefixes from nested `group()` calls.
+- **[PR #3461](https://github.com/Graphify-Labs/graphify/pull/3461):** Fixed [issue #3409](https://github.com/Graphify-Labs/graphify/issues/3409) where PHP route handlers were missing from the graph, so queries couldn't trace endpoints into services. Named each handler by its route (e.g., `GET /api/v1/users/{id}`) by composing prefixes from nested `group()` calls. Shipped in v0.9.67.
 - **Extractor Refinements:** Made closure IDs stable across unrelated edits (per-scope numbering instead of line-based names) and refined the extractor over 8 commits, resolving false-positive route detections like `$cache->get()`.
+- **[PR #3848](https://github.com/Graphify-Labs/graphify/pull/3848):** Fixed Kotlin extraction that emitted zero graph edges for annotations like `@Inject` and `@Entity`, and skipped constructor property fields. Added a helper that walks the modifier tree for every annotation shape. Added 9 regression tests, plus a negative test proving a plain constructor parameter without `val`/`var` does not become a field. Shipped in v0.9.69.
+- **[PR #3843](https://github.com/Graphify-Labs/graphify/pull/3843):** Fixed Python absolute imports going dangling when only a nested package directory was scanned. `_infer_scan_root_namespace()` walks up `__init__.py` files to rebuild the real namespace, then re-resolves imports against the scan root. Also hardened a thread-safe cache lookup and an exact-match fallback. 6 regression tests, +171/-1 lines. Shipped in v0.9.70.
+- **[PR #3845](https://github.com/Graphify-Labs/graphify/pull/3845):** Rewrote the contributor infrastructure: `CONTRIBUTING.md` with real engineering invariants (determinism guarantees, zero-node guard, shrink guard), strict issue templates to cut maintainer triage time, and Code of Conduct upgraded to Contributor Covenant v2.1.
 
 <h3 align="center"><a href="https://github.com/bluewave-labs/Checkmate">Checkmate</a> (11K+ ⭐)</h3>
 <p align="center"><i>React, gRPC, REST, MongoDB, Zod</i></p>
