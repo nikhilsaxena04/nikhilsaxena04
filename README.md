@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>👋 Hi, I'm Nikhil!</h1>
+  <h1>👋 Hey, I'm Nikhil!</h1>
   <h3>Full-Stack AI & Distributed Systems Engineer</h3>
   <p><b>🎓 2027 Graduate · Actively seeking Software Engineering roles</b></p>
 </div>
